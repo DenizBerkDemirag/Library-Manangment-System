@@ -61,46 +61,87 @@ library-management-system/
 │   ├── Login.ui
 
 │   ├── Siparis_goruntule.ui
+
 │   ├── Siparis_ver.ui
+
 │   ├── Tum_Kitaplar.ui
+
 │   ├── Uye_Kayit.ui
+
 │   └── Yonlendirme.ui
+
 │
+
 ├── window/
+
 │   ├── Ana_Login_python.py
+
 │   ├── Calisma_python.py
+
 │   ├── Guncelle_python.py
+
 │   ├── KayitEt_python.py
+
 │   ├── Kitap_python.py
+
 │   ├── Kitaplik_python.py
+
 │   ├── Kullanici_python.py
+
 │   ├── Login_python.py
+
 │   ├── Siparis_goruntule_python.py
+
 │   ├── Siparis_ver_python.py
+
 │   ├── Style.py
+
 │   ├── Tum_Kitaplar_python.py
+
 │   ├── Uye_Kayit_python.py
+
 │   └── Yonlendirme_python.py
+
 │
+
 ├── core/
+
 │   ├── Ana_login.py
+
 │   ├── Calisma.py
+
 │   ├── Database.py
+
 │   ├── Guncelle.py
+
 │   ├── KayitEt.py
+
 │   ├── Kitap.py
+
 │   ├── Kitaplik.py
+
 │   ├── Kullanici.py
+
 │   ├── Login.py
+
 │   ├── Siparis_ver.py
+
 │   ├── SiparisGoruntule.py
+
 │   ├── Tum_Kitaplar.py
+
 │   ├── Uye_Kayit.py
+
 │   └── Yonlendirme.py
+
 │
+
 ├── styles/
+
 │   └── style.qss
+
 │
+
 └── main.py
 
 
