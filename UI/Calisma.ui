@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_101">
+   <item row="7" column="2">
+    <layout class="QGridLayout" name="gridLayout_74">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_28">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="5" column="0">
+    <layout class="QGridLayout" name="gridLayout_59">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_6">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="5" column="1">
+    <layout class="QGridLayout" name="gridLayout_60">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_16">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="7">
+    <layout class="QGridLayout" name="gridLayout_31">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_73">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="0">
+    <layout class="QGridLayout" name="gridLayout_49">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_5">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="5" column="2">
+    <layout class="QGridLayout" name="gridLayout_54">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_26">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="5" column="3">
+    <layout class="QGridLayout" name="gridLayout_53">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_39">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="9">
+    <layout class="QGridLayout" name="gridLayout_42">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_95">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="5">
+    <layout class="QGridLayout" name="gridLayout_41">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_50">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="5" column="5">
+    <layout class="QGridLayout" name="gridLayout_51">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_52">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="5" column="6">
+    <layout class="QGridLayout" name="gridLayout_55">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_66">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="5" column="7">
+    <layout class="QGridLayout" name="gridLayout_56">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_76">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="9">
+    <layout class="QGridLayout" name="gridLayout_19">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_93">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="5" column="4">
+    <layout class="QGridLayout" name="gridLayout_58">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_51">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="4">
+    <layout class="QGridLayout" name="gridLayout_48">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_49">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="8">
+    <layout class="QGridLayout" name="gridLayout_10">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_84">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="8">
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_83">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="6">
+    <layout class="QGridLayout" name="gridLayout_45">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_65">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="5">
+    <layout class="QGridLayout" name="gridLayout_32">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_48">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="1">
+    <layout class="QGridLayout" name="gridLayout_40">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_14">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="2">
+    <layout class="QGridLayout" name="gridLayout_35">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_24">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="6">
+    <layout class="QGridLayout" name="gridLayout_36">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_64">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="0">
+    <layout class="QGridLayout" name="gridLayout_39">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_4">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="9">
+    <layout class="QGridLayout" name="gridLayout_33">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_94">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="1">
+    <layout class="QGridLayout" name="gridLayout_50">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_15">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="3">
+    <layout class="QGridLayout" name="gridLayout_34">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_37">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="2">
+    <layout class="QGridLayout" name="gridLayout_44">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_25">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="3">
+    <layout class="QGridLayout" name="gridLayout_43">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_38">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="7">
+    <layout class="QGridLayout" name="gridLayout_46">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_75">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="8">
+    <layout class="QGridLayout" name="gridLayout_47">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_85">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="4">
+    <layout class="QGridLayout" name="gridLayout_38">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_47">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="7">
+    <layout class="QGridLayout" name="gridLayout_37">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_74">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="7">
+    <layout class="QGridLayout" name="gridLayout_29">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_71">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="5">
+    <layout class="QGridLayout" name="gridLayout_26">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_34">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="9">
+    <layout class="QGridLayout" name="gridLayout_17">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_91">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="3">
+    <layout class="QGridLayout" name="gridLayout_24">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_32">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="4">
+    <layout class="QGridLayout" name="gridLayout_7">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_35">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="5">
+    <layout class="QGridLayout" name="gridLayout_27">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_44">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="6">
+    <layout class="QGridLayout" name="gridLayout_15">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_62">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="7">
+    <layout class="QGridLayout" name="gridLayout_30">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_72">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="8">
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_82">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="9">
+    <layout class="QGridLayout" name="gridLayout_18">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_92">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <layout class="QGridLayout" name="gridLayout_9">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_3">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="1">
+    <layout class="QGridLayout" name="gridLayout_20">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_11">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="4">
+    <layout class="QGridLayout" name="gridLayout_6">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_33">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="8">
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_81">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="3">
+    <layout class="QGridLayout" name="gridLayout_23">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_31">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_2">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="1">
+    <layout class="QGridLayout" name="gridLayout_21">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_12">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="2">
+    <layout class="QGridLayout" name="gridLayout_12">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_22">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="6">
+    <layout class="QGridLayout" name="gridLayout_14">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_61">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="2">
+    <layout class="QGridLayout" name="gridLayout_11">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_21">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="4">
+    <layout class="QGridLayout" name="gridLayout_8">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_45">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="1">
+    <layout class="QGridLayout" name="gridLayout_22">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_13">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="5">
+    <layout class="QGridLayout" name="gridLayout_28">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_46">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="6">
+    <layout class="QGridLayout" name="gridLayout_16">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_63">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="2">
+    <layout class="QGridLayout" name="gridLayout_13">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_23">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="3">
+    <layout class="QGridLayout" name="gridLayout_25">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_36">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="9" column="7">
+    <layout class="QGridLayout" name="gridLayout_96">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_80">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="9" column="8">
+    <layout class="QGridLayout" name="gridLayout_97">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_90">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="9" column="6">
+    <layout class="QGridLayout" name="gridLayout_95">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_70">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="9" column="9">
+    <layout class="QGridLayout" name="gridLayout_92">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_100">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="6" column="2">
+    <layout class="QGridLayout" name="gridLayout_64">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_27">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="6" column="4">
+    <layout class="QGridLayout" name="gridLayout_68">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_53">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="6" column="7">
+    <layout class="QGridLayout" name="gridLayout_66">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_77">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="6" column="8">
+    <layout class="QGridLayout" name="gridLayout_67">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_87">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="7" column="0">
+    <layout class="QGridLayout" name="gridLayout_79">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_8">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="7" column="1">
+    <layout class="QGridLayout" name="gridLayout_80">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_18">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="7" column="4">
+    <layout class="QGridLayout" name="gridLayout_78">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_54">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="7" column="5">
+    <layout class="QGridLayout" name="gridLayout_71">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_58">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="6" column="3">
+    <layout class="QGridLayout" name="gridLayout_63">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_40">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="6" column="9">
+    <layout class="QGridLayout" name="gridLayout_62">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_97">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="7" column="6">
+    <layout class="QGridLayout" name="gridLayout_75">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_68">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="7" column="3">
+    <layout class="QGridLayout" name="gridLayout_73">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_41">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="7" column="7">
+    <layout class="QGridLayout" name="gridLayout_76">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_78">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="6" column="0">
+    <layout class="QGridLayout" name="gridLayout_69">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_7">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="6" column="1">
+    <layout class="QGridLayout" name="gridLayout_70">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_17">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="6" column="5">
+    <layout class="QGridLayout" name="gridLayout_61">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_57">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="5" column="8">
+    <layout class="QGridLayout" name="gridLayout_57">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_86">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="6" column="6">
+    <layout class="QGridLayout" name="gridLayout_65">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_67">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="5" column="9">
+    <layout class="QGridLayout" name="gridLayout_52">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_96">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="8" column="5">
+    <layout class="QGridLayout" name="gridLayout_81">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_59">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="8" column="7">
+    <layout class="QGridLayout" name="gridLayout_86">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_79">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="7" column="9">
+    <layout class="QGridLayout" name="gridLayout_72">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_98">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="7" column="8">
+    <layout class="QGridLayout" name="gridLayout_77">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_88">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="8" column="0">
+    <layout class="QGridLayout" name="gridLayout_89">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_9">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="8" column="1">
+    <layout class="QGridLayout" name="gridLayout_90">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_19">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="8" column="3">
+    <layout class="QGridLayout" name="gridLayout_83">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_42">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="8" column="6">
+    <layout class="QGridLayout" name="gridLayout_85">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_69">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="8" column="8">
+    <layout class="QGridLayout" name="gridLayout_87">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_89">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="9" column="1">
+    <layout class="QGridLayout" name="gridLayout_100">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_20">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="9" column="3">
+    <layout class="QGridLayout" name="gridLayout_93">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_43">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="9" column="2">
+    <layout class="QGridLayout" name="gridLayout_94">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_30">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="8" column="9">
+    <layout class="QGridLayout" name="gridLayout_82">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_99">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="8" column="2">
+    <layout class="QGridLayout" name="gridLayout_84">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_29">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="8" column="4">
+    <layout class="QGridLayout" name="gridLayout_88">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_55">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="9" column="0">
+    <layout class="QGridLayout" name="gridLayout_99">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_10">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="9" column="4">
+    <layout class="QGridLayout" name="gridLayout_98">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_56">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="9" column="5">
+    <layout class="QGridLayout" name="gridLayout_91">
+     <item row="1" column="0">
+      <widget class="QCheckBox" name="checkBox_60">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="10" column="4" colspan="2">
+    <layout class="QGridLayout" name="gridLayout_102">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Çıkış</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
