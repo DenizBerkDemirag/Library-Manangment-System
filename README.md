@@ -32,20 +32,34 @@ The system uses a relational database and Python scripts to perform data operati
 ## 📂 Project Structure
 
 library-management-system/
+
 │
+
 ├── database/
+
 │   ├── Library.db
+
 │   └── Library.sqbpro
+
 │
 ├── ui/
+
 │   ├── Ana_Login.ui
+
 │   ├── Calisma.ui
+
 │   ├── Guncelle.ui
+
 │   ├── KayitEt.ui
+
 │   ├── Kitap.ui
+
 │   ├── Kitaplik.ui
+
 │   ├── Kullanici.ui
+
 │   ├── Login.ui
+
 │   ├── Siparis_goruntule.ui
 │   ├── Siparis_ver.ui
 │   ├── Tum_Kitaplar.ui
