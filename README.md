@@ -36,6 +36,8 @@ library-management-system/
 
 │
 
+├──.gitignore
+
 ├── database/
 
 │   ├── Library.db
