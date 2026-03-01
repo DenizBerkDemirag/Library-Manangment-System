@@ -38,6 +38,8 @@ library-management-system/
 
 ├──.gitignore
 
+│
+
 ├── database/
 
 │   ├── Library.db
@@ -45,6 +47,7 @@ library-management-system/
 │   └── Library.sqbpro
 
 │
+
 ├── ui/
 
 │   ├── Ana_Login.ui
