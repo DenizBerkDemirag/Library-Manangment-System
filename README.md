@@ -150,7 +150,11 @@ library-management-system/
 
 └── main.py
 
+## 🚀 Setup
+python main.py
 
+### Clone Repository
+git clone https://github.com/DenizBerkDemirag/Library-Manangment-System.git
 
 
 ## 📊 Example Operations
