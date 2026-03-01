@@ -1,0 +1,185 @@
+/* ==============================
+   GLOBAL
+============================== */
+* {
+    font-family: "Segoe UI", "Arial";
+    font-size: 13px;
+    color: #2c2c2c;
+}
+
+/* ==============================
+   MAIN WIDGET
+============================== */
+QWidget {
+    background-color: #f4f6f8;
+}
+
+/* ==============================
+   FRAME / GROUPBOX
+============================== */
+QFrame, QGroupBox {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+/* ==============================
+   LABEL
+============================== */
+QLabel {
+    min-height: 24px;
+}
+
+QLabel#titleLabel {
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 36px;
+    color: #1e88e5;
+}
+
+/* ==============================
+   LINE EDIT
+============================== */
+QLineEdit {
+    min-height: 36px;
+    max-height: 36px;
+    min-width: 220px;
+
+    background-color: #ffffff;
+    border: 1px solid #cfd8dc;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #1e88e5;
+}
+
+/* ==============================
+   TEXT EDIT
+============================== */
+QTextEdit {
+    min-height: 90px;
+    min-width: 300px;
+
+    background-color: #ffffff;
+    border: 1px solid #cfd8dc;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+/* ==============================
+   COMBOBOX
+============================== */
+QComboBox {
+    min-height: 36px;
+    max-height: 36px;
+    min-width: 220px;
+
+    background-color: #ffffff;
+    border: 1px solid #cfd8dc;
+    border-radius: 6px;
+    padding-left: 8px;
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: 24px;
+}
+
+/* ==============================
+   BUTTON
+============================== */
+QPushButton {
+    min-height: 38px;
+    min-width: 120px;
+
+    background-color: #1e88e5;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 14px;
+}
+
+QPushButton:pressed {
+    background-color: #1565c0;
+}
+
+QPushButton#danger {
+    background-color: #e53935;
+}
+
+QPushButton#secondary {
+    background-color: #eceff1;
+    color: #37474f;
+}
+
+/* ==============================
+   CHECKBOX
+============================== */
+QCheckBox {
+    min-height: 28px;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+}
+
+/* ==============================
+   TABLE
+============================== */
+QTableWidget, QTableView {
+    min-height: 280px;
+
+    background-color: #ffffff;
+    border: 1px solid #cfd8dc;
+    border-radius: 6px;
+    gridline-color: #e0e0e0;
+}
+
+QHeaderView::section {
+    min-height: 32px;
+
+    background-color: #e3f2fd;
+    padding: 6px;
+    font-weight: bold;
+    border: none;
+}
+
+QTableWidget::item:selected,
+QTableView::item:selected {
+    background-color: #bbdefb;
+    color: #000000;
+}
+
+/* ==============================
+   TAB WIDGET
+============================== */
+QTabBar::tab {
+    min-height: 34px;
+    min-width: 120px;
+
+    background-color: #eceff1;
+    border-radius: 6px;
+    padding: 6px 14px;
+}
+
+QTabBar::tab:selected {
+    background-color: #1e88e5;
+    color: #ffffff;
+}
+
+/* ==============================
+   SCROLLBAR
+============================== */
+QScrollBar:vertical {
+    width: 8px;
+    background: transparent;
+}
+
+QScrollBar::handle:vertical {
+    background: #b0bec5;
+    border-radius: 4px;
+}
