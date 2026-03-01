@@ -1,4 +1,4 @@
-# Library-Manangment-System
+# Library-Managment-System
 
 **Library Management System** developed using **Python** and **SQL** for managing books, members, and borrowing transactions.
 
