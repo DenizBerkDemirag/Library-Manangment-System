@@ -10,11 +10,12 @@ This project demonstrates basic database usage and Python-based data operations.
 
 This project implements a basic library management system that allows:
 
-- Mananging books
+- Managing books
+- Viewing stored records
 - Borrowing books
 - Returning books
 - Managing members
-- Viewing stored records
+- Managing study room
 
 The system uses a relational database and Python scripts to perform data operations.
 
@@ -25,7 +26,7 @@ The system uses a relational database and Python scripts to perform data operati
 - Python
 - SQL
 - SQLite
-- QTDesigner
+- QT Designer
 
 ---
 
@@ -153,11 +154,12 @@ The system supports:
 
 - Adding new books
 - Updating books
-- Delete books
-- Mananging members
+- Deleting books
 - Borrowing books
 - Returning books
 - Listing books
+- Managing members
+- Managing study room
 
 ---
 
