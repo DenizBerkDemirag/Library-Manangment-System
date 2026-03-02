@@ -36,19 +36,13 @@ library-management-system/
 
 │
 
-├──.gitignore
+├── styles/
+
+│   └── style.qss
 
 │
 
-├── database/
-
-│   ├── Library.db
-
-│   └── Library.sqbpro
-
-│
-
-├── ui/
+├── UI/
 
 │   ├── Ana_Login.ui
 
@@ -76,7 +70,8 @@ library-management-system/
 
 │   └── Yonlendirme.ui
 
-│
+│ 
+
 
 ├── window/
 
@@ -142,9 +137,19 @@ library-management-system/
 
 │
 
-├── styles/
+├── database/
 
-│   └── style.qss
+│   ├── Library.db
+
+│   └── Library.sqbpro
+
+│
+
+├── .gitignore
+
+│
+
+├── README.md
 
 │
 
