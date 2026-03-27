@@ -155,6 +155,16 @@ library-management-system/
 
 └── main.py
 
+## 📐 UML Class Diagram
+
+The UML class diagram below shows all classes, their attributes, methods, and relationships (inheritance, composition, and signal/slot connections).
+
+![UML Class Diagram](uml/class_diagram.png)
+
+The source file is available at [`uml/class_diagram.puml`](uml/class_diagram.puml).
+
+---
+
 ## 🚀 Setup
 python main.py
 
