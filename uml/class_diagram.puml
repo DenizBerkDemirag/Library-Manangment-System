@@ -53,7 +53,7 @@ class Veritabani {
     + update_masa_durumu(masa_id: int, dolu_mu: bool) : void
     + update_all_masa_durumlari(dolu_masalar: List[int]) : void
     + get_occupancy_counts() : Tuple[int, int]
-    + siparis_bilgiler(kullanici_id: str, kitap_id: int, adress: str, tarih: str, tarih_ver: str, durum: str) : bool
+    + siparis_bilgiler(kullanici_id: str, kitap_id: int, address: str, tarih: str, tarih_ver: str, durum: str) : bool
     + siparis_doldur() : List[Tuple]
     + siparis_tamamla(id_siparis: int) : bool
     + siparis_kontrol(id_kullanici: str, id_kitap: int) : bool
