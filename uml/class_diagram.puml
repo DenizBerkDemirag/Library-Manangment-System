@@ -1,0 +1,290 @@
+@startuml Library_Management_System_Class_Diagram
+
+title Library Management System - Class Diagram
+
+skinparam classAttributeIconSize 0
+skinparam class {
+    BackgroundColor #FAFAFA
+    ArrowColor #333333
+    BorderColor #555555
+    HeaderBackgroundColor #4A90D9
+    HeaderFontColor #FFFFFF
+}
+skinparam stereotypeCBackgroundColor #A9DCDF
+skinparam stereotypeABackgroundColor #E2A9F3
+skinparam dpi 150
+
+' ─────────────────────────────────────────
+' External / Framework Classes
+' ─────────────────────────────────────────
+class QWidget <<PyQt5>> {
+}
+
+' ─────────────────────────────────────────
+' Database Layer
+' ─────────────────────────────────────────
+class Veritabani {
+    - dizin : str
+    - vt_yol : str
+    - con : Connection
+    - cursor : Cursor
+    --
+    + baglanti_ac() : void
+    + baglanti_kapat() : void
+    + kitap_yazdir() : List[Tuple]
+    + kitap_arama(arama: str) : List[Tuple]
+    + kategori_yazdir(kategori_adi: str) : List[Tuple]
+    + kategori_arama_yap(kategori_adi: str, arama: str) : List[Tuple]
+    + kayit_yap(kitap_adi: str, kategori_adi: str, yazar: str, yayinlanma: int, stok: str) : bool
+    + guncelleme_yap(id: int, a: str, b: str, c: str, d: int, e: str) : bool
+    + kayit_sil(kitap_id: int) : bool
+    + giris_kontrol(kullanici_id: str, sifre: str) : bool
+    + admin_giris_kontrol(kullanici_id: str, sifre: str) : bool
+    + uye_kayit_yap(id: str, password: str) : bool
+    + Id_kontrol(id: str) : bool
+    + engel_kontrol(id: str) : bool
+    + engelle(id: str) : bool
+    + engel_ac(id: str) : bool
+    + kullanici_yukle() : List[Tuple]
+    + kullanici_sil(id: str) : bool
+    + kullanici_arama(arama: str) : List[Tuple]
+    + get_all_masalar() : List[Tuple]
+    + get_dolu_masalar() : List[int]
+    + update_masa_durumu(masa_id: int, dolu_mu: bool) : void
+    + update_all_masa_durumlari(dolu_masalar: List[int]) : void
+    + get_occupancy_counts() : Tuple[int, int]
+    + siparis_bilgiler(kullanici_id: str, kitap_id: int, address: str, tarih: str, tarih_ver: str, durum: str) : bool
+    + siparis_doldur() : List[Tuple]
+    + siparis_tamamla(id_siparis: int) : bool
+    + siparis_kontrol(id_kullanici: str, id_kitap: int) : bool
+}
+
+' ─────────────────────────────────────────
+' UI Page Classes
+' ─────────────────────────────────────────
+class AnaLoginPage {
+    - AnaLoginForm : Ui_Form
+    - Nesneogrenci : LoginPage
+    - NesneUyeKayit : UyeKayitPage
+    --
+    + giris() : void
+    + kayit() : void
+    + goster() : void
+}
+
+class LoginPage {
+    - LoginForm : Ui_Form
+    - db : Veritabani
+    - NesneYonlendirme : YönlendirmePage
+    --
+    {signal} LoginCikisSignal()
+    --
+    + ogrenci_giris() : void
+    + ana_login() : void
+}
+
+class UyeKayitPage {
+    - UyeForm : Ui_Form
+    - db : Veritabani
+    --
+    + cikis() : void
+    + kayit() : void
+}
+
+class YönlendirmePage {
+    - YönlendirmeForm : Ui_Form
+    - NesneKitaplik : KitaplikPage
+    - NesneCalisma : CalismaPage
+    --
+    + kitaplik() : void
+    + calisma() : void
+    + geri_don() : void
+}
+
+class KitaplikPage {
+    - KitaplikForm : Ui_Form
+    - db : Veritabani
+    - NesneKullanici : KullaniciPage
+    - NesneSiparis : SiparisVerPage
+    - NesneSiparisGoruntule : SiparisGoruntulePage
+    - NesneKitap : KitapPage
+    - NesneTumKitaplar : TumKitaplarPage
+    - is_admin : bool
+    - kategori : str
+    --
+    {signal} yanlisgiris()
+    --
+    + kategoriye_gore_getir() : void
+    + tum_kitaplar() : void
+    + kullanici_goruntule() : void
+    + siparis_sayfasi() : void
+    + siparis_goruntule_sayfasi() : void
+    + kitaplik_cikis() : void
+}
+
+class KitapPage {
+    - KitapForm : Ui_Form
+    - db : Veritabani
+    - kategori_adi : str
+    - NesneKayit : KayitEtPage
+    - NesneGuncelle : GuncellePage
+    --
+    + kitaplari_yukle() : void
+    + tabloyu_doldur(veriler: List[Tuple]) : void
+    + kitap_arama() : void
+    + kitap_kayit_ekrani() : void
+    + guncelle_ekrani() : void
+    + sil() : void
+    + cikis() : void
+}
+
+class TumKitaplarPage {
+    - TumKitaplarForm : Ui_Form
+    - db : Veritabani
+    - NesneKayit : KayitEtPage
+    - NesneGuncelle : GuncellePage
+    --
+    + kitaplari_yukle() : void
+    + tabloyu_doldur(veriler: List[Tuple]) : void
+    + kitap_arama() : void
+    + kitap_kayit_ekrani() : void
+    + guncelle_ekrani() : void
+    + sil() : void
+    + cikis() : void
+}
+
+class KayitEtPage {
+    - KayitEtForm : Ui_Form
+    - db : Veritabani
+    - kitap_ad : str
+    - kategori_ad : str
+    - yazar : str
+    - yayinlanma : int
+    - stok : str
+    --
+    {signal} kayitedildi()
+    --
+    + Kaydet() : void
+}
+
+class GuncellePage {
+    - GuncelleForm : Ui_Form
+    - db : Veritabani
+    - kitap_id : int
+    - kitap_adi : str
+    - kategori : str
+    - yazar : str
+    - yayinlanma : int
+    - stok : str
+    --
+    {signal} guncellendi()
+    --
+    + guncelle() : void
+}
+
+class KullaniciPage {
+    - KullaniciForm : Ui_Form
+    - db : Veritabani
+    --
+    + kullanici_yukle() : void
+    + tabloyu_doldur(kullanicilar: List[Tuple]) : void
+    + kullanici_arama() : void
+    + sil() : void
+    + engelle() : void
+    + engel_ac() : void
+    + cikis() : void
+}
+
+class SiparisVerPage {
+    - SiparisVerForm : Ui_Form
+    - db : Veritabani
+    --
+    + onayla() : void
+}
+
+class SiparisGoruntulePage {
+    - SiparisGoruntuleForm : Ui_Form
+    - db : Veritabani
+    --
+    + tabloyu_yukle() : void
+    + tabloyu_doldur(veriler: List[Tuple]) : void
+    + tamamla() : void
+}
+
+class CalismaPage {
+    - CalismaForm : Ui_Form
+    - db : Veritabani
+    - is_admin : bool
+    --
+    + load_masa_durumlari() : void
+    + enable_admin_access() : void
+    + disable_checkbox_interaction() : void
+    + masa_toggled(masa_id: int, checked: bool) : void
+    + update_occupancy_status() : void
+    + calisma_cikis() : void
+}
+
+' ─────────────────────────────────────────
+' Inheritance (all pages extend QWidget)
+' ─────────────────────────────────────────
+QWidget <|-- AnaLoginPage
+QWidget <|-- LoginPage
+QWidget <|-- UyeKayitPage
+QWidget <|-- YönlendirmePage
+QWidget <|-- KitaplikPage
+QWidget <|-- KitapPage
+QWidget <|-- TumKitaplarPage
+QWidget <|-- KayitEtPage
+QWidget <|-- GuncellePage
+QWidget <|-- KullaniciPage
+QWidget <|-- SiparisVerPage
+QWidget <|-- SiparisGoruntulePage
+QWidget <|-- CalismaPage
+
+' ─────────────────────────────────────────
+' Composition Relationships
+' ─────────────────────────────────────────
+AnaLoginPage *-- LoginPage : contains >
+AnaLoginPage *-- UyeKayitPage : contains >
+
+LoginPage *-- Veritabani : uses >
+LoginPage *-- YönlendirmePage : creates >
+
+UyeKayitPage *-- Veritabani : uses >
+
+YönlendirmePage *-- KitaplikPage : contains >
+YönlendirmePage *-- CalismaPage : contains >
+
+KitaplikPage *-- Veritabani : uses >
+KitaplikPage *-- KullaniciPage : contains >
+KitaplikPage *-- SiparisVerPage : contains >
+KitaplikPage *-- SiparisGoruntulePage : contains >
+KitaplikPage *-- KitapPage : contains >
+KitaplikPage *-- TumKitaplarPage : contains >
+
+KitapPage *-- Veritabani : uses >
+KitapPage *-- KayitEtPage : contains >
+KitapPage *-- GuncellePage : contains >
+
+TumKitaplarPage *-- Veritabani : uses >
+TumKitaplarPage *-- KayitEtPage : contains >
+TumKitaplarPage *-- GuncellePage : contains >
+
+KayitEtPage *-- Veritabani : uses >
+GuncellePage *-- Veritabani : uses >
+KullaniciPage *-- Veritabani : uses >
+SiparisVerPage *-- Veritabani : uses >
+SiparisGoruntulePage *-- Veritabani : uses >
+CalismaPage *-- Veritabani : uses >
+
+' ─────────────────────────────────────────
+' Signal/Slot Connections (dashed)
+' ─────────────────────────────────────────
+LoginPage ..> AnaLoginPage : LoginCikisSignal -> goster()
+KayitEtPage ..> KitapPage : kayitedildi -> kitaplari_yukle()
+KayitEtPage ..> TumKitaplarPage : kayitedildi -> kitaplari_yukle()
+GuncellePage ..> KitapPage : guncellendi -> kitaplari_yukle()
+GuncellePage ..> TumKitaplarPage : guncellendi -> kitaplari_yukle()
+KitaplikPage ..> YönlendirmePage : yanlisgiris -> geri_don()
+
+@enduml
